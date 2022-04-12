@@ -16,10 +16,14 @@ dotnet new -i .
 随便打开一个目录，输入
 
 ```
-dotnet new abpcruddto -n ProductCategory -d=ProductCategories -p=ProductManage
+dotnet new abpcruddto -n ProductCategory -d=ProductCategories -p=ProductionManage
 ```
 
 会在当前目录下方创建 ProductCategory目录，目录内有两个文件夹 ** SiteManage.Application，SiteManage.Core **
+
+# 查看自定义参数
+``dotnet new abpcruddto -h``
+
 # 卸载
 
 先用 dotnet new --uninstall  查看可卸载的template，会有命令提示

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SiteManage.Authorization
 {
-    public static class SiteTypePermissionNames
+    public static partial class PermissionNames
     {
         public const string SiteType_GroupName = "SiteType.GroupName";
         public const string SiteType_Create = "SiteType.Create";

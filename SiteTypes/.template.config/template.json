@@ -5,7 +5,7 @@
     "identity": "AbpCrudDto",
     "name": "ABP CRUD Dto AppService",
     "shortName": "abpcruddto",
-    "preferNameDirectory": true,
+    "preferNameDirectory": false,
     "sourceName": "SiteType",
     "tags": {
     "language": "C#",
@@ -14,11 +14,14 @@
     "symbols": {
         "project": {
         "type": "parameter",
+        "fileRename": "SiteManage",
+        "description": "ProjectName, 项目的名称",
         "defaultValue": "ProductionManage",
         "replaces": "SiteManage"
         },
-        "diretory": {
+        "directory": {
             "type": "parameter",
+            "description": "directory name,目录名称",
             "defaultValue": "SiteTypes",
             "replaces": "SiteTypes"
         }

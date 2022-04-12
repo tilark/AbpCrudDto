@@ -8,11 +8,11 @@ namespace SiteManage.Authorization
     {
         public static void SetPermissions(IPermissionDefinitionContext context)
         {
-           var groupName = context.CreatePermission(SiteTypePermissionNames.SiteType_GroupName, L("SiteType_GroupName"));
-            groupName.CreateChildPermission(SiteTypePermissionNames.SiteType_Create, L("Create"));
-            groupName.CreateChildPermission(SiteTypePermissionNames.SiteType_Research, L("Research"));
-            groupName.CreateChildPermission(SiteTypePermissionNames.SiteType_Update, L("Edit"));
-            groupName.CreateChildPermission(SiteTypePermissionNames.SiteType_Delete, L("Delete"));
+           var groupName = context.CreatePermission(PermissionNames.SiteType_GroupName, L("SiteType_GroupName"));
+            groupName.CreateChildPermission(PermissionNames.SiteType_Create, L("Create"));
+            groupName.CreateChildPermission(PermissionNames.SiteType_Research, L("Research"));
+            groupName.CreateChildPermission(PermissionNames.SiteType_Update, L("Edit"));
+            groupName.CreateChildPermission(PermissionNames.SiteType_Delete, L("Delete"));
 
 
         }
