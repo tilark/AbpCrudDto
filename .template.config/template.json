@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "@Tilark",
+    "classifications": ["Dto", "Class", "Service"],
+    "identity": "AbpCrudDto",
+    "name": "ABP CRUD Dto AppService",
+    "shortName": "abpcruddto",
+    "preferNameDirectory": true,
+    "sourceName": "SiteType",
+    "tags": {
+    "language": "C#",
+    "type": "item"
+    },
+    "symbols": {
+        "project": {
+        "type": "parameter",
+        "defaultValue": "ProductionManage",
+        "replaces": "SiteManage"
+        },
+        "diretory": {
+            "type": "parameter",
+            "defaultValue": "SiteTypes",
+            "replaces": "SiteTypes"
+        }
+    }
+}
